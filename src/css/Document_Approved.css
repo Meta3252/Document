@@ -1,0 +1,47 @@
+.DocumentApproved {
+  padding: 20px;
+}
+
+.DocumentApproved h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.DocumentApproved input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+.DocumentApproved table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.DocumentApproved th, .DocumentApproved td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.DocumentApproved th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.DocumentApproved tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.DocumentApproved tr:hover {
+  background-color: #ddd;
+}
+
+.DocumentApproved a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.DocumentApproved a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,34 @@
+.DocumentRejectedList {
+  padding: 20px;
+}
+
+
+.DocumentRejectedList h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.DocumentRejectedList input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+.DocumentRejectedList table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.DocumentRejectedList th, .DocumentRejectedList td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.DocumentRejectedList th {
+  background-color: #f2f2f2;
+}
+
+.DocumentRejectedList tr:hover {
+  background-color: #f1f1f1;
+}

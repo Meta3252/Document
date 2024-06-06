@@ -1,0 +1,34 @@
+.DocumentDestroy {
+  padding: 20px;
+}
+
+
+.DocumentDestroy h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.DocumentDestroy input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+.DocumentDestroy table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.DocumentDestroy th, .DocumentDestroy td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.DocumentDestroy th {
+  background-color: #f2f2f2;
+}
+
+.DocumentDestroy tr:hover {
+  background-color: #f1f1f1;
+}

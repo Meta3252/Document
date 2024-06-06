@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ย้ายการกำหนด overflow:hidden ไปยัง html */
+html {
+  height: 100%; /* กำหนดความสูงของ html เท่ากับหน้าจอ */
+}
+
+/* เนื้อหาหลัก */
+.main-content {
+  min-height: 100vh; /* กำหนดความสูงขั้นต่ำให้เท่ากับความสูงของหน้าจอ */
+  display: flex; /* ใช้ Flexbox เพื่อจัดวางเนื้อหา */
+  flex-direction: column; /* จัดเรียงเนื้อหาให้อยู่ในแนวตั้ง */
+  overflow-y: auto; /* เพิ่มการเลื่อนในแนวตั้ง */
+  height: 100%; /* กำหนดความสูงของเนื้อหาเท่ากับความสูงของหน้าจอ */
+}

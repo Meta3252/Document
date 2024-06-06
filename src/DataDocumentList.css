@@ -1,0 +1,27 @@
+.DataDocumentList {
+  min-height: 100vh; /* กำหนดความสูงขั้นต่ำให้เท่ากับความสูงของหน้าจอ */
+  min-width: 100%; /* กำหนดความกว้างขั้นต่ำให้เท่ากับความกว้างของหน้าจอ */
+  display: flex; /* ใช้ Flexbox เพื่อจัดวางเนื้อหา */
+  flex-direction: column; /* จัดเรียงเนื้อหาให้อยู่ในแนวตั้ง */
+  overflow-y: auto; /* เพิ่มการเลื่อนในแนวตั้ง */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  overflow-x: auto; /* เลื่อนในแนวนอน */
+  overflow-y: auto; /* เลื่อนในแนวตั้ง */
+}
+
+
+
+th, td {
+  border: 1px solid #ddd; /* กำหนดเส้นขอบให้กับเซลล์ */
+  padding: 8px; /* กำหนดระยะห่างของข้อความภายในเซลล์ */
+  text-align: left; /* จัดข้อความไว้ทางซ้าย */
+}
+
+th {
+  background-color: #f2f2f2; /* กำหนดสีพื้นหลังของหัวตาราง */
+}
